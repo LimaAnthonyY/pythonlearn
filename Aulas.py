@@ -53,3 +53,8 @@ idade = 23
 
 print("O " + nome + " tem " + str(idade) + " anos de idade e mora em " + cidade + ".")
 
+nome = input("Digite o seu nome: ")
+idade = input("Digite a sua idade: ")
+cidade = input("Digite a sua cidade: ")
+
+print("O/A " + nome + " tem " + str(idade) + " anos de idade e mora em " + cidade + ".")
