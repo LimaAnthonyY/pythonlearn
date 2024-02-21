@@ -65,3 +65,18 @@ anoNas = input ("Digite em que ano você nasceu: ")
 idade = 2024 - int(anoNas)
 
 print ("Você tem " + str(idade) + " anos de idade")
+
+
+
+#Aula 6
+
+fruta = 'Abacaxi'
+#index   0123456
+print (fruta[3])
+print (fruta[2:5]) #sempre o final será um numero anterior, exemplo se colocar 5 o ultimo sera o 4
+
+valor = 99.75
+#index  01234
+valor = str(valor)
+
+print (valor[3:5])
