@@ -43,6 +43,13 @@ Cidade = variavel
 '''
 
 nome = 'Andre'
-idade = int(32)
+idade = 32
 cidade ='São Paulo'
+
+print("O " + nome + " tem " + str(idade) + " anos de idade e mora em " + cidade + ".")
+
+nome = "Anthony"
+idade = 23
+
+print("O " + nome + " tem " + str(idade) + " anos de idade e mora em " + cidade + ".")
 
