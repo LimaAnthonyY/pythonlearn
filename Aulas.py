@@ -100,3 +100,15 @@ texto2 = f'O {nome} {sobrenome} é um excelente [{profissao}]'
 
 print(texto)
 print(texto2)
+
+#Aula 8
+
+msg = "Eu adoro comida caseira"
+print(msg)
+
+print(msg.lower()) #Tudo será impresso em caixa baixa
+print(msg.upper()) #Tudo será impresso em caixa alta
+print(msg.capitalize()) #Primeira letra será em caixa alta
+print(msg.find('c')) #Vai me dizer em que posição esta a letra dentro do find, a letra tem que estar conforme o texto C ou c / -1 = não existe
+print(msg.replace('a','e')) #Alterna a primeira letra ou palavra pela ultima ' '
+print(msg.strip()) #Remove o espaço antes do primeiro caracter
