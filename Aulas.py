@@ -58,3 +58,10 @@ idade = input("Digite a sua idade: ")
 cidade = input("Digite a sua cidade: ")
 
 print("O/A " + nome + " tem " + str(idade) + " anos de idade e mora em " + cidade + ".")
+
+#Aula 5
+
+anoNas = input ("Digite em que ano você nasceu: ")
+idade = 2024 - int(anoNas)
+
+print ("Você tem " + str(idade) + " anos de idade")
