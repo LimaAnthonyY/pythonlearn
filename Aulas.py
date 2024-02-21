@@ -30,3 +30,19 @@ z = float(5)
 print(x + x)
 print(y + y)
 print(z + z)
+
+# Aula 4
+
+
+
+'''
+o Andre tem 32 anos de idade e mora na cidade de São Paulo
+Nome = variavel
+Idade = variavel
+Cidade = variavel
+'''
+
+nome = 'Andre'
+idade = int(32)
+cidade ='São Paulo'
+
