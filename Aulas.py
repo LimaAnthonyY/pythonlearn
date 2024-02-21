@@ -1,6 +1,5 @@
-
-# Comentario simples // simple comment
 # Aula 1
+# Comentario simples // simple comment
 
 print("hello word")
 print('How are u?')
@@ -80,3 +79,24 @@ valor = 99.75
 valor = str(valor)
 
 print (valor[3:5])
+
+
+#Aula 7
+
+
+'''
+# O Marcos Silva é um excelente [Programador]
+nome
+sobrenome
+profissão
+texto
+'''
+nome = input ("Digite o seu nome: ")
+sobrenome = input ("Digite o seu sobrenome: ")
+profissao = input ("Digite a sua profissão: ")
+texto = 'O ' + nome + ' ' + sobrenome + ' é um excelente ' + '[' + profissao + ']'
+
+texto2 = f'O {nome} {sobrenome} é um excelente [{profissao}]'
+
+print(texto)
+print(texto2)
