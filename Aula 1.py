@@ -23,10 +23,10 @@ Float => Quebrado/ float=(3,5 / 2,1 ...)
 Boolean type => Bool: True or False
 '''
 
-x = 3
-y = 4
-z = 5
+x = str(3)
+y = int(4)
+z = float(5)
 
-print(x)
-print(y)
-print(z)
+print(x + x)
+print(y + y)
+print(z + z)
