@@ -174,3 +174,18 @@ else :
 
 
 #Aula 12
+
+rendaAcima = True
+nomeLimpo = True
+
+if rendaAcima & nomeLimpo:
+    print("Financiamento aprovado!")
+else:
+    print("Financiamento negado!")
+
+if rendaAcima or nomeLimpo:
+    print("Financiamento aprovado!")
+else:
+    print("Financiamento negado!")
+
+#Aula 13
