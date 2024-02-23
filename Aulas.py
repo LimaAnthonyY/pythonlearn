@@ -112,3 +112,30 @@ print(msg.capitalize()) #Primeira letra será em caixa alta
 print(msg.find('c')) #Vai me dizer em que posição esta a letra dentro do find, a letra tem que estar conforme o texto C ou c / -1 = não existe
 print(msg.replace('a','e')) #Alterna a primeira letra ou palavra pela ultima ' '
 print(msg.strip()) #Remove o espaço antes do primeiro caracter
+
+
+#Aula 9
+
+"""
+== Equal
+!= Not equal
+> Greater than
+< Less than
+>= Greater than or equal to 
+<= Less than or equal to
+"""
+
+op = 10 == 10
+print(op)
+
+op = 10 > 9
+print(op)
+
+op = 10 < 9
+print(op)
+
+op = 10 <= 9
+print(op)
+
+op = 10 >= 9
+print(op)
