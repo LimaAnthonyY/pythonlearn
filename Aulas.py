@@ -161,3 +161,16 @@ print(x)
 
 #Aula 11
 
+vel = 100
+
+if vel > 110:
+    print("Você está acima da velocidade máxima permitida!")
+    print("Reduza a sua velocidade até estar abaixo de 110KM/h!!")
+elif vel < 60:
+    print("Você está abaixo da velocidade máxima permitida!")
+    print("Aumente a sua velocidade até o mínimo de 80KM/h!")
+else :
+    print("Você está dentro da velocidade permitida! :)")
+
+
+#Aula 12
