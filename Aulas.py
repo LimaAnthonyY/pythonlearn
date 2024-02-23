@@ -139,3 +139,25 @@ print(op)
 
 op = 10 >= 9
 print(op)
+
+#Aula 10
+
+x = 10
+
+x += 5 # x = x + 5 
+print(x)
+
+x -= 5 # x = x - 5 
+print(x)
+
+x *= 5 # x = x * 5 
+print(x)
+
+x /= 5 # x = x / 5 
+print(x)
+
+x %= 5 # x = x % 5 
+print(x)
+
+#Aula 11
+
