@@ -189,3 +189,17 @@ else:
     print("Financiamento negado!")
 
 #Aula 13
+    
+valor = 10
+
+if valor >= 20 and valor < 40:
+    print("Produto foi aceito!")
+else:
+    print("Produto não aceito!")
+
+
+if 20 <= valor < 40:
+    print("Produto foi aceito!")
+else:
+    print("Produto não aceito!")
+
