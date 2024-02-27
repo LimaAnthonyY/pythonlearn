@@ -220,3 +220,18 @@ palavra = "fantastico"
 
 for letra in palavra:
     print(f"{letra} esta dentro da palavra {palavra}")
+
+## 
+#Enviar um email com os detalhes da compra online (maximo 3 tentativas)
+#para compras confirmadas.
+
+compraConfirmada = False
+dadosCompra = 'Compra no valor de 12.50 e entrega confirmada'
+
+for enviar in range(3):
+    if compraConfirmada:
+        print(dadosCompra)
+        print("Detalhes enviados para o seu e-mail")
+        break
+else:
+    print("Compra não autorizada")
