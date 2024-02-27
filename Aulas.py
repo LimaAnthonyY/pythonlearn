@@ -203,7 +203,20 @@ if 20 <= valor < 40:
 else:
     print("Produto não aceito!")
 
-# imprimir de 1 a 5
+# imprimir de 1 a 5 numeros
 
 for i in range(5):
     print (i+1)
+
+for numero in range(300):
+    print(numero+1)
+
+# 
+
+for letra in 'Google':
+    print(letra)
+
+palavra = "fantastico"
+
+for letra in palavra:
+    print(f"{letra} esta dentro da palavra {palavra}")
