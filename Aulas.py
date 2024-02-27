@@ -203,3 +203,7 @@ if 20 <= valor < 40:
 else:
     print("Produto não aceito!")
 
+# imprimir de 1 a 5
+
+for i in range(5):
+    print (i+1)
