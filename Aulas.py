@@ -292,7 +292,9 @@ Loops depndnts de uma condição
 
 #Criar uma promoção para um produto de 100R$
 """
-price = 100
-
+price = 100.00
+dia = 1 
 while price > 20:
-    print(price)
+    print(f'No dia {dia} o produto vai ser vendido por R$ {price}')
+    dia +=1
+    price -=5
