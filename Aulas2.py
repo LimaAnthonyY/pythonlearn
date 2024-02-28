@@ -62,6 +62,7 @@ def bv(nome, quantidade):
     print(f"Olá {nome}.")
     print(f"Temos {str(quantidade)} laptops em estoque.")
 
+
 bv('Marcos', 5)
 bv('Ronaldo', 4)
 bv('Linda', 2)
@@ -70,4 +71,23 @@ def bv2(nome, quantidade = 6): # def name(Non-Default, Default):
     print(f"Olá {nome}.")
     print(f"Temos {str(quantidade)} laptops em estoque.")
 
+
 bv2('Marcos')
+
+#Calcula e retorna um valor
+
+def cliente1 (nome):
+    print(f'Olá {nome}') # Só vai imprimir o argumento f'Olá {nome}'
+
+cliente1('Maria')
+
+def cliente2 (nome):
+    return f'Olá {nome}' # Armazenou o argumento f'Olá {nome}'
+
+print(cliente2('Jose'))
+
+x = cliente1("Maria")
+y = cliente2("Jose")
+
+print(x)
+print(y)
