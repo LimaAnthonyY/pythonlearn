@@ -264,3 +264,27 @@ for numero1 in range(1,6):
 for space in palavra:
     space = space.upper()
     print(f'{space} ', end='')
+
+
+### Gerar um retangulo
+    
+"""
+Criar um retangulo 6x6
+@@@@@@
+@@@@@@
+@@@@@@
+@@@@@@
+@@@@@@
+@@@@@@
+"""
+linhas = 6
+colunas =  6
+simbolos = '@'
+
+for l in range(linhas) :
+    for c in range(colunas):
+        print(simbolos, end="")
+    print("")
+
+### while
+
