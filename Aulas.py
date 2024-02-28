@@ -288,7 +288,7 @@ for l in range(linhas) :
 
 ### while
 """
-Loops depndnts de uma condição
+Loops dependentes de uma condição
 
 #Criar uma promoção para um produto de 100R$
 """
@@ -298,3 +298,36 @@ while price > 20:
     print(f'No dia {dia} o produto vai ser vendido por R$ {price}')
     dia +=1
     price -=5
+
+idade = 18
+"""
+Como seria:
+if idade >= 16:
+    votar = print("Voto permitido")
+else:
+    votar = print("Voto nao foi permitido")
+Melhor forma para fazer:
+"""
+votar = 'Voto permitido' if idade >= 16 else 'Voto nao permitido'
+print(votar)
+
+## Diferença de for loop e while loop
+# if só roda uma vez verdadeiro ou falso
+# for roda até um certo numero X
+# while ira até satisfazer uma condição
+
+# Publicar um produto com comissão de 10% se for acima de R$ 20
+
+produto = float(input("Digite o valor do produto: "))
+porcentagem = 10/100
+
+while valor > 20:
+    valor = produto * porcentagem + produto 
+    print(f'O valor do produto será de {valor}')
+    break
+
+if float(produto) > 20:
+    valor = produto * porcentagem + produto 
+    print(f'O valor do produto será de {valor}')
+else:
+    print(f'O valor do produto será de {valor}')
