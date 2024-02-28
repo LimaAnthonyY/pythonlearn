@@ -5,3 +5,6 @@
 #### In this section, I'm learning Python and projects in Python, thinking about DataScience.
 
 ###### Operators; loop ; functions ; Projects in Python; Panda ; Numpy ; Scikit Learn ;
+
+
+<a href="https://media0.giphy.com/media/KAq5w47R9rmTuvWOWa/200.gif?cid=6c09b952lc2oiiwz5t9kro6lo20db0jlo9td2vqdpc158sbx&ep=v1_gifs_search&rid=200.gif&ct=g"><img align="center" src="https://readme-jokes.vercel.app/api?theme=tokyonight" alt="README Jokes"></a>
