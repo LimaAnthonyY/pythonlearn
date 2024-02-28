@@ -15,11 +15,12 @@
 
 # Functions 
     # DRY - Don't repeat yourself.
-# Deixar 2 espaçoes apos a criação da função
-    # Parametro --> Argumento
-    # Default = Aquele que você define o valor no parametro
-    # Non-Default = Aquele que você nao define o valor no parametro
+# Deixar 2 espaçoes apos a criação da função.
+    # Parametro --> Argumento.
+    # Default = Aquele que você define o valor no parametro.
+    # Non-Default = Aquele que você nao define o valor no parametro.
     # Passar primeiro o argumento non-default primeiro.
+    # Vários argumentos (xargs) indentificando o Parametro.
 def boasVindas ():
     print('Ola Marcos!')
     print("Temos 5 laptops em estoque!")
@@ -107,3 +108,17 @@ x = soma(2,3,4,7,4)     # Variavel que ira receber a função e definir os argum
 
 print(x)                # Print
 
+
+# Função que armazena numeros e strings (Dados)
+
+# 2 ** significa que posso passar embaixo o parametro
+def agencia(**carro):
+    return carro
+
+print(agencia(modelo = 'Gol', cor = 'Branca', motor = 1.0, placa = '1234'))
+print(agencia(modelo = 'Gol', cor = 'Azul', motor = 1.0))
+print(agencia(modelo = 'Gol', cor = 'Preto', motor = 1.0, placa = '1234'))
+
+#print(agencia)
+
+#
