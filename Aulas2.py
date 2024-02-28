@@ -16,8 +16,10 @@
 # Functions 
     # DRY - Don't repeat yourself.
 # Deixar 2 espaçoes apos a criação da função
-
-
+    # Parametro --> Argumento
+    # Default = Aquele que você define o valor no parametro
+    # Non-Default = Aquele que você nao define o valor no parametro
+    # Passar primeiro o argumento non-default primeiro.
 def boasVindas ():
     print('Ola Marcos!')
     print("Temos 5 laptops em estoque!")
@@ -63,3 +65,9 @@ def bv(nome, quantidade):
 bv('Marcos', 5)
 bv('Ronaldo', 4)
 bv('Linda', 2)
+
+def bv2(nome, quantidade = 6): # def name(Non-Default, Default):
+    print(f"Olá {nome}.")
+    print(f"Temos {str(quantidade)} laptops em estoque.")
+
+bv2('Marcos')
