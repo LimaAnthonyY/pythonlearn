@@ -287,4 +287,12 @@ for l in range(linhas) :
     print("")
 
 ### while
+"""
+Loops depndnts de uma condição
 
+#Criar uma promoção para um produto de 100R$
+"""
+price = 100
+
+while price > 20:
+    print(price)
