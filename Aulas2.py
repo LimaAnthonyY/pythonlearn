@@ -121,4 +121,14 @@ print(agencia(modelo = 'Gol', cor = 'Preto', motor = 1.0, placa = '1234'))
 
 #print(agencia)
 
-#
+### Importando um modulo
+# Qual é o numero fatorial de 4?
+# 4! é => 4*3*2*1 = 24
+
+import math # Para saber mais pesquisar nas livrarias do python sobre as funções que tem
+
+print(math.factorial(4))
+
+print(math.floor(2.7))  # static method always rounds down and returns the largest integer less than or equal to a given number.
+
+print(math.ceil(2.7))   # static method always rounds up and returns the smallest integer greater than or equal to a given number.
