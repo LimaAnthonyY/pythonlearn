@@ -91,3 +91,19 @@ y = cliente2("Jose")
 
 print(x)
 print(y)
+
+#Xargs with numbers
+
+# Criar uma função que soma vários números
+
+def soma(*numeros):     # Definimos uma varial que recebera X numeros
+    total = 0           # Iniciamos uma variavel total para receber a soma desses números
+    for num in numeros: # Criamos um loop de soma, que acaba quando o range dos numeros acabarem
+        total += num    # calculo da soma total = total + num
+    return total        # retorna o total da soma dos números
+
+
+x = soma(2,3,4,7,4)     # Variavel que ira receber a função e definir os argumentos
+
+print(x)                # Print
+
