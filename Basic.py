@@ -6,6 +6,7 @@ print('How are u?')
 print("What day is it?")
 
 # Aula 2
+
 '''
 Comentario de várias linhas // Multi-line comment
 
@@ -15,6 +16,7 @@ print("What day is it?")
 '''
 
 # Aula 3
+
 '''
 Text => String/ str=("Texto")
 Numbers => Integer/ int=(1,2,3...N)
@@ -31,8 +33,6 @@ print(y + y)
 print(z + z)
 
 # Aula 4
-
-
 
 '''
 o Andre tem 32 anos de idade e mora na cidade de São Paulo
@@ -65,8 +65,6 @@ idade = 2024 - int(anoNas)
 
 print ("Você tem " + str(idade) + " anos de idade")
 
-
-
 # Aula 6
 
 fruta = 'Abacaxi'
@@ -80,9 +78,7 @@ valor = str(valor)
 
 print (valor[3:5])
 
-
 # Aula 7
-
 
 '''
 # O Marcos Silva é um excelente [Programador]
@@ -112,7 +108,6 @@ print(msg.capitalize()) #Primeira letra será em caixa alta
 print(msg.find('c')) #Vai me dizer em que posição esta a letra dentro do find, a letra tem que estar conforme o texto C ou c / -1 = não existe
 print(msg.replace('a','e')) #Alterna a primeira letra ou palavra pela ultima ' '
 print(msg.strip()) #Remove o espaço antes do primeiro caracter
-
 
 # Aula 9
 
@@ -172,7 +167,6 @@ elif vel < 60:
 else :
     print("Você está dentro da velocidade permitida! :)")
 
-
 # Aula 12
 
 rendaAcima = True
@@ -189,7 +183,7 @@ else:
     print("Financiamento negado!")
 
 # Aula 13
-    
+
 valor = 10
 
 if valor >= 20 and valor < 40:
@@ -219,9 +213,8 @@ palavra = "fantastico"
 for letra in palavra:
     print(f"{letra} esta dentro da palavra {palavra}")
 
-## 
-# Enviar um email com os detalhes da compra online (maximo 3 tentativas)
-# para compras confirmadas.
+## Enviar um email com os detalhes da compra online (maximo 3 tentativas)
+## para compras confirmadas.
 
 compraConfirmada = False
 dadosCompra = 'Compra no valor de 12.50 e entrega confirmada'
@@ -254,10 +247,10 @@ for numero1 in range(1,6):
     for numero2 in range(1,11):
         print(numero1, numero2)
 
+
 ## Separando STR
         
 # Modificar a palavra fantastico para f a n t a s t i c o
-
 
 for space in palavra:
     space = space.upper()
