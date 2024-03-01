@@ -1,5 +1,5 @@
 # Aula 1
-# Comentario simples // simple comment
+    # Comentario simples // simple comment
 
 print("hello word")
 print('How are u?')
@@ -58,7 +58,7 @@ cidade = input("Digite a sua cidade: ")
 
 print("O/A " + nome + " tem " + str(idade) + " anos de idade e mora em " + cidade + ".")
 
-#Aula 5
+# Aula 5
 
 anoNas = input ("Digite em que ano você nasceu: ")
 idade = 2024 - int(anoNas)
@@ -67,21 +67,21 @@ print ("Você tem " + str(idade) + " anos de idade")
 
 
 
-#Aula 6
+# Aula 6
 
 fruta = 'Abacaxi'
-#index   0123456
+# index  0123456
 print (fruta[3])
 print (fruta[2:5]) #sempre o final será um numero anterior, exemplo se colocar 5 o ultimo sera o 4
 
 valor = 99.75
-#index  01234
+# index 01234
 valor = str(valor)
 
 print (valor[3:5])
 
 
-#Aula 7
+# Aula 7
 
 
 '''
@@ -101,7 +101,7 @@ texto2 = f'O {nome} {sobrenome} é um excelente [{profissao}]'
 print(texto)
 print(texto2)
 
-#Aula 8
+# Aula 8
 
 msg = "Eu adoro comida caseira"
 print(msg)
@@ -114,7 +114,7 @@ print(msg.replace('a','e')) #Alterna a primeira letra ou palavra pela ultima ' '
 print(msg.strip()) #Remove o espaço antes do primeiro caracter
 
 
-#Aula 9
+# Aula 9
 
 """
 == Equal
@@ -140,7 +140,7 @@ print(op)
 op = 10 >= 9
 print(op)
 
-#Aula 10
+# Aula 10
 
 x = 10
 
@@ -159,7 +159,7 @@ print(x)
 x %= 5 # x = x % 5 
 print(x)
 
-#Aula 11
+# Aula 11
 
 vel = 100
 
@@ -173,7 +173,7 @@ else :
     print("Você está dentro da velocidade permitida! :)")
 
 
-#Aula 12
+# Aula 12
 
 rendaAcima = True
 nomeLimpo = True
@@ -188,7 +188,7 @@ if rendaAcima or nomeLimpo:
 else:
     print("Financiamento negado!")
 
-#Aula 13
+# Aula 13
     
 valor = 10
 
@@ -203,15 +203,13 @@ if 20 <= valor < 40:
 else:
     print("Produto não aceito!")
 
-# imprimir de 1 a 5 numeros
+## imprimir de 1 a 5 numeros
 
 for i in range(5):
     print (i+1)
 
 for numero in range(300):
     print(numero+1)
-
-# 
 
 for letra in 'Google':
     print(letra)
@@ -222,8 +220,8 @@ for letra in palavra:
     print(f"{letra} esta dentro da palavra {palavra}")
 
 ## 
-#Enviar um email com os detalhes da compra online (maximo 3 tentativas)
-#para compras confirmadas.
+# Enviar um email com os detalhes da compra online (maximo 3 tentativas)
+# para compras confirmadas.
 
 compraConfirmada = False
 dadosCompra = 'Compra no valor de 12.50 e entrega confirmada'
@@ -258,7 +256,7 @@ for numero1 in range(1,6):
 
 ## Separando STR
         
-#Modificar a palavra fantastico para f a n t a s t i c o
+# Modificar a palavra fantastico para f a n t a s t i c o
 
 
 for space in palavra:
@@ -312,11 +310,11 @@ votar = 'Voto permitido' if idade >= 16 else 'Voto nao permitido'
 print(votar)
 
 ## Diferença de for loop e while loop
-# if só roda uma vez verdadeiro ou falso
-# for roda até um certo numero X
-# while ira até satisfazer uma condição
+    # if só roda uma vez verdadeiro ou falso
+    # for roda até um certo numero X
+    # while ira até satisfazer uma condição
 
-# Publicar um produto com comissão de 10% se for acima de R$ 20
+## Publicar um produto com comissão de 10% se for acima de R$ 20
 
 produto = float(input("Digite o valor do produto: "))
 porcentagem = 10/100
