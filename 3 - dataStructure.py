@@ -118,3 +118,60 @@ if cliente in cores:
 else:
     print(f'A cor {cliente} não está disponivel em estoque')
 
+# var = list('comprar')
+# print(var)
+
+cores = ['amarelo', 'verde', 'azul', 'vermelho']
+valores = [10, 20, 30, 40]
+
+# zipar 2 listas
+x = zip(cores, valores)
+
+print(list(x))
+
+    # Crar uma lista de frutas a partir do input fornecido pelo usuário
+
+frutasUser = input('Por favor digitar as frutas da lista separado por virgula.\n(exemplo: banana,uva)\n')
+
+frutasList = frutasUser.split(',')
+
+print(frutasList)
+
+    # Tuples
+        # Armaenar mais de uma informação em variáveis
+        # Manter a sequencia dos dados em uma variavel
+        # Não podem ser alteradas (Immutable)
+        # Não posso remover, alterar ou adiconar qualquer coisa nesse tipo
+        # Tuple ocupa menos memoria, além de ser mais rapida. Sendo vantajosa em itens que não vao ser alterados.
+coresList =  ['amarelo', 'verde', 'azul', 'vermelho']
+coresTuple =  ('amarelo', 'verde', 'azul', 'vermelho')
+
+print(coresList)
+print(coresTuple)
+
+dobleList = coresList * 2
+dobleTuple = coresTuple * 2
+
+print(dobleList)
+print(dobleTuple)
+
+
+    # Array(matriz)
+        # Similar a listas
+        # Melhor performance
+        # Precisa importar com 'from array import array'
+        # https://docs.python.org/3/library/array.html
+from array import array
+
+letras = ['a', 'b', 'c', 'd']
+numI = [10, 20, 30, 40]
+numF = [1.2, 2.2, 3.2, 4.2]
+
+letras = array('u', ['a', 'b', 'c', 'd'])
+numI = array('i',[10, 20, 30, 40])
+numF = array('f',[1.2, 2.2, 3.2, 4.2])
+
+print(letras)
+print(numI)
+print(numF)
+
