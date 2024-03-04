@@ -228,3 +228,25 @@ s1.discard(9) # Vai discartar o número 9 // Não gera um erro se o número não
 print(f'Apos discartar o numero 9: {s1}')
 
 
+    # Dicíonários
+        # Utiliza index no formato de Keys e Values
+        # Aceita string, integer, float, boolean ... 
+
+alunos = {'nome': 'Ana', 'idade': 16, 'nota final': 'A', 'aprovação': True} # nome = {keys: values, keys2: values2, n: n }
+
+print(alunos['nome'])
+
+alunos = {'nome': 'Ana', 'idade': 16, 'nota final': 'A', 'aprovação': True}
+
+alunos['nome'] = 'Jose'
+alunos.update({'nome': 'Carlos', 'nota final': 'B'})
+print(alunos['nome']  + ' ' + alunos['nota final'])
+
+alunos.update({'endereço': 'Rua A'})
+print(alunos)
+
+print(alunos.get('bairro', 'Não existe')) # utilizando o get, eu peço a key + value e colocar uma mensagem de retorno
+    # Utilizar o get te traz uma mensagem de erro, e não para o programa.
+    # print(alunos['bairro']) -- te traz uma mensagem de erro parando o programa
+
+del alunos['idade'] # remover do dicionario
