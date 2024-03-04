@@ -175,3 +175,56 @@ print(letras)
 print(numI)
 print(numF)
 
+    # Set (Listas)
+        # Similar a listas
+        # Evita itens duplicados
+        # Não utiliza index
+
+list1 = [10, 20, 30, 40, 50]
+list2 = [10, 20, 60, 70]
+
+num1 = set(list1)
+num2 = set(list2)
+
+print(num1 | num2) # Union (vai juntar as duas listas retirando os repetidos)
+print(num1 - num2) # Difference (Vai tirar do 1 os numeros que tem repetidos com o segundo)
+print(num1 ^ num2) # Symmetric Difference (Vai mostrar os valores que não são repetidos)
+print(num1 & num2) # And (Vai mostrar os números que tem nas 2 listas)
+
+print(len(num1))
+
+set1 = {'a', 'b', 'c'}
+set2 = {'a', 'd', 'e'}
+set3 = {'c', 'd', 'f'}
+
+set4 = set1.union(set2) # Union (vai juntar as duas listas retirando os repetidos)
+set5 = set1.difference(set3) # Difference (Vai tirar do 1 os numeros que tem repetidos com o segundo)
+set6 = set1.intersection(set2) # Intersection (O que tem no 1 e no 2)
+set7 = set1.symmetric_difference(set3) # Symmetric Difference (Vai mostrar os valores que não são repetidos)
+
+print(set4)
+print(set5)
+print(set6)
+print(set7)
+
+list1 = set([10, 20, 30, 40, 50])
+
+s1 = {1, 2, 3, 4, 5, 6}
+print(f'Apos a declaração do Set: {s1}')
+
+s1.add(7) # Vai adicionar 1 unico numero ao ( N )
+print(f'Apos a adição no Set do numero 7: {s1}')
+
+s1.add(4) # não vai adicionar o 4, pois evita numeros duplicados
+print(f'Apos a adição no Set do numero 4: {s1}')
+
+s1.update({7, 8, 9, 10}) # Vai adicionar todos dentro do ({ N })
+print(f'Apos a adição no Set dos numeros [7, 8, 9, 10]: {s1}')
+
+s1.remove(10) # Vai remover o item dentro do ( N ) // Gera um erro se o número não existir
+print(f'Apos a remoção do numero 10: {s1}')
+
+s1.discard(9) # Vai discartar o número 9 // Não gera um erro se o número não existir
+print(f'Apos discartar o numero 9: {s1}')
+
+
