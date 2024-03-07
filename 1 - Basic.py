@@ -1,5 +1,6 @@
 # Aula 1
     # Comentario simples // simple comment
+    # https://docs.python.org/3/library/functions.html (Built-in Functions)
 
 print("hello word")
 print('How are u?')

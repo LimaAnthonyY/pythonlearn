@@ -12,15 +12,16 @@
             - Cor          |                             |                                       |
                        ----                          ----                                    ----
 """
-
-## Functions 
-    # DRY - Don't repeat yourself.
-## Deixar 2 espaçoes apos a criação da função.
-    # Parametro --> Argumento.
-    # Default = Aquele que você define o valor no parametro.
-    # Non-Default = Aquele que você nao define o valor no parametro.
-    # Passar primeiro o argumento non-default primeiro.
-    # Vários argumentos (xargs) indentificando o Parametro.
+    # https://docs.python.org/3/library/functions.html (Built-in Functions)
+    
+    ## Functions 
+        # DRY - Don't repeat yourself.
+    ## Deixar 2 espaçoes apos a criação da função.
+        # Parametro --> Argumento.
+        # Default = Aquele que você define o valor no parametro.
+        # Non-Default = Aquele que você nao define o valor no parametro.
+        # Passar primeiro o argumento non-default primeiro.
+        # Vários argumentos (xargs) indentificando o Parametro.
 def boasVindas ():
     print('Ola Marcos!')
     print("Temos 5 laptops em estoque!")
@@ -37,7 +38,7 @@ def somar():
 
 somar()
 
-# Parametros --> argumentos (Funções)
+    # Parametros --> argumentos (Funções)
 """
 def bvMarcos():
     print('Ola Marcos!')
@@ -75,7 +76,7 @@ def bv2(nome, quantidade = 6): # def name(Non-Default, Default):
 
 bv2('Marcos')
 
-# Calcula e retorna um valor
+    # Calcula e retorna um valor
 
 def cliente1 (nome):
     print(f'Olá {nome}') # Só vai imprimir o argumento f'Olá {nome}'
@@ -93,9 +94,9 @@ y = cliente2("Jose")
 print(x)
 print(y)
 
-## Xargs with numbers
+    ## Xargs with numbers
 
-    # Criar uma função que soma vários números
+        # Criar uma função que soma vários números
 
 def soma(*numeros):     # Definimos uma varial que recebera X numeros
     total = 0           # Iniciamos uma variavel total para receber a soma desses números
@@ -109,9 +110,9 @@ x = soma(2,3,4,7,4)     # Variavel que ira receber a função e definir os argum
 print(x)                # Print
 
 
-# Função que armazena numeros e strings (Dados)
+    # Função que armazena numeros e strings (Dados)
 
-# 2 ** significa que posso passar embaixo o parametro
+        # 2 ** significa que posso passar embaixo o parametro
 def agencia(**carro):
     return carro
 
@@ -121,9 +122,9 @@ print(agencia(modelo = 'Gol', cor = 'Preto', motor = 1.0, placa = '1234'))
 
 # print(agencia)
 
-### Importando um modulo
-    # Qual é o numero fatorial de 4?
-    # 4! é => 4*3*2*1 = 24
+    ### Importando um modulo
+        # Qual é o numero fatorial de 4?
+        # 4! é => 4*3*2*1 = 24
 
 import math # Para saber mais pesquisar nas livrarias do python sobre as funções que tem
 

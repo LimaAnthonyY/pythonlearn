@@ -284,3 +284,69 @@ print(alunos.items())   # dict_items
 print(alunos.keys())    # dict_keys
 print(alunos.values())  # dict_values
 
+    # Lambda Function
+        # É uma função (pequena) sem nome
+        # Pode ter várioas argumentos mas somente 1 expressão
+        # Muito utilizada dentro de outras funções
+        # Código mais "Clean"
+
+def somar (x):
+    return x + 10
+
+print(somar(2))
+
+somar = lambda argumento: argumento + 10    # expressão vai ser ( argumento + 10)
+print(somar(2))
+
+somar2 = lambda x,y: x + y + 10   
+print(somar2(2, 4))
+
+    # Lambda dentro de outra função
+
+def somar (x) :
+    func2 = lambda x: x + 10
+    return func2(x) * 4
+
+print(somar(2))
+
+    # Map
+        # Muito utilizado com listas
+        # Aplicar uma função a um Iterable, por item. (List, tuple, dic etc.)
+
+
+list1 = [1, 2, 3, 4]
+
+def multi(x):
+    return x * 2
+
+list2 = map(multi, list1)
+
+print(list(list2))
+
+    # Map + Lambda
+
+list1 = [1, 2, 3, 4]
+
+'''
+Substituindo isso
+ def mult(x):
+    return x * 2
+
+list2 = map(lambda x: x * 2, list1)
+'''
+print(list(map(lambda x: x * 2, list1))) # por isso
+
+    # Function Filter
+        # Muito utilizado com listas
+        # Aplicar uma função a um Iterable, por item. (List, tuple, dic etc.)
+
+valores = [10, 12, 34, 44, 57]
+
+def remove20(x):
+    return x > 20
+
+print(list(map(remove20, valores)))     # retorna true / false
+
+print(list(filter(remove20, valores)))  # retorna os valores
+
+print(list(filter(lambda x: x > 20, valores))) # melhorando o def com o filter
