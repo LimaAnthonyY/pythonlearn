@@ -250,3 +250,37 @@ print(alunos.get('bairro', 'Não existe')) # utilizando o get, eu peço a key + 
     # print(alunos['bairro']) -- te traz uma mensagem de erro parando o programa
 
 del alunos['idade'] # remover do dicionario
+
+    # loop
+alunos = {'nome': 'Ana', 'idade': 16, 'nota final': 'A', 'aprovação': True}
+
+for x in alunos: # for x in alunos.keys():
+    print(x)
+
+for x in alunos.values(): # traz só os values
+    print(x)
+
+for x in alunos.items(): # traz os dois
+    print(x)
+
+for keys, values in alunos.items(): # traz os dois
+    print(keys, values)
+
+    # visualização
+
+alunos = {
+    'nome': 'Ana',
+    'idade': 16, 
+    'nota final': 'A', 
+    'aprovação': True, 
+    'Materias':['Fisica', 'Matematica', 'Ingles']
+}
+
+print(alunos)
+
+print(alunos.get('Materias'))
+print(len(alunos))
+print(alunos.items())   # dict_items
+print(alunos.keys())    # dict_keys
+print(alunos.values())  # dict_values
+
