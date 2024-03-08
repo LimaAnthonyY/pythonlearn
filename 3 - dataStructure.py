@@ -350,3 +350,31 @@ print(list(map(remove20, valores)))     # retorna true / false
 print(list(filter(remove20, valores)))  # retorna os valores
 
 print(list(filter(lambda x: x > 20, valores))) # melhorando o def com o filter
+
+    # list comprehension com str
+        # mais simples de se escrever
+        # utilizado quando voce precisa criar uma nova lista a partir de uma existente
+        # [expressao for item in item]
+
+frutasList = ['abacate', 'banana', 'morango', 'kiwi', 'abacaxi']
+# frutasSec = []
+
+# for item in frutasList:
+#     if 'b' in item:
+#         frutasSec.append(item)
+        # melhorando o codigo acima
+frutasSec = [item for item in frutasList if 'n' in item]
+print(frutasSec)
+
+    # list comprehension com str
+# valores = []
+
+# for x in range(6):
+#     valores.append(x*10)
+
+# print(valores)
+
+valores = [x * 10 for x in range(6)]
+
+print(valores)
+
