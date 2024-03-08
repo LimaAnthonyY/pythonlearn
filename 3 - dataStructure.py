@@ -378,3 +378,21 @@ valores = [x * 10 for x in range(6)]
 
 print(valores)
 
+    # Generator expressions 
+        # Uma forma mais rápida para listas, dicionarios etc.
+        # Menos memória alocada
+        # VALORES EM BYTES
+
+from sys import getsizeof
+
+numeros = [x * 10 for x in range(10000)]
+print(type(numeros))
+print(numeros)
+print(getsizeof(numeros))
+
+print("========")
+
+numeros = (x * 10 for x in range(10000)) # generator é melhor em questão de performance
+print(type(numeros)) 
+print(list(numeros)) # precisa mudar para o tipo para listas ao imprimir
+print(getsizeof(numeros))
