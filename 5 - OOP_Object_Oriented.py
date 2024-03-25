@@ -96,4 +96,3 @@ usuario3 = Funcionarios('Campelo', 'Eu', 2002)
 #print(usuario1.idadeFuncionario())
 print(Funcionarios.nomeCompleto(usuario1))
 print(Funcionarios.idadeFuncionario(usuario1))
-
