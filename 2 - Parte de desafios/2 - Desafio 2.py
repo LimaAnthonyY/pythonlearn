@@ -1,5 +1,4 @@
     # Desafio com Funções
-
 '''
 Criar um programa que calcula a quantidade de tinta necessária para
 pintar uma parede. O usuário deverá fornecer as seguintes

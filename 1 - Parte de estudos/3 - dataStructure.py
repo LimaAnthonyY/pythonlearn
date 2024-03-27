@@ -138,7 +138,7 @@ frutasList = frutasUser.split(',')
 print(frutasList)
 
     # Tuples
-        # Armaenar mais de uma informação em variáveis
+        # Armazenar mais de uma informação em variáveis
         # Manter a sequencia dos dados em uma variavel
         # Não podem ser alteradas (Immutable)
         # Não posso remover, alterar ou adiconar qualquer coisa nesse tipo
