@@ -20,6 +20,10 @@ def temp(idioma):
                     print(f"A carne queimou!")
                 
                 idioma = int(input('Deseja retornar ao menu de temperatura? 1- Sim 2- Não\n====== '))
+                if idioma == 2:
+                    break
+                else:
+                    temp(1)
             else:
                 user = int(input('Enter the temperature of the steak: '))
                 
