@@ -12,12 +12,21 @@ Temperaturas - Cozimento
 150 F ou 65 C - Medium Well (Ao ponto para o bem)
 160 F ou 71 C - Well done (Bem passada)
 '''
-from Func import temp
+from Func1 import temp
 
 try:
     idioma = int(input('*Qual idioma deseja continuar?\n  1- Portugues\n  2- Ingles\n\n1*What language do you want?\n  1- Portuguese\n  2- English\n======'))
     temp(idioma)
 except ValueError:
-        print("Digite um valor valido.")
-        idioma = input('Deseja sair? 1- Não 2- Sim\n====== ')
-        temp(2)
+        print("Valor digitado fora do esperado. Digite um valor valido.")
+        print('Deseja sair? 1- Não 2- Sim\n====== ')
+        print("Value entered not as expected. Enter a valid value.")
+        idioma = input("Do you want to leave? 1- No 2- Yes\n====== ")
+        if idioma == 2:
+            temp(3)
+        else:
+            try:
+                idioma = int(input('*Qual idioma deseja continuar?\n  1- Portugues\n  2- Ingles\n\n1*What language do you want?\n  1- Portuguese\n  2- English\n======'))
+                temp(idioma)
+            except ValueError:
+                    print("Valor digitado fora do esperado. Fechando o programa.\nEntered value not as expected. Closing the program.")

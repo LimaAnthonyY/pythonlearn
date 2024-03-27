@@ -1,5 +1,5 @@
 def temp(idioma):
-    while(idioma!=2):
+    while(idioma!=3):
         try:
             if idioma == 1:
                 user = int(input('Digite a temperatura da carne: '))
@@ -19,7 +19,7 @@ def temp(idioma):
                 else:
                     print(f"A carne queimou!")
                 
-                idioma = int(input('Deseja retornar ao menu? 1- Sim 2- Não\n====== '))
+                idioma = int(input('Deseja retornar ao menu de temperatura? 1- Sim 2- Não\n====== '))
             else:
                 user = int(input('Enter the temperature of the steak: '))
                 
@@ -38,10 +38,16 @@ def temp(idioma):
                 else:
                     print(f"The steak is burnt!")
                 
-                idioma = int(input('Do you want to return to the menu? 1- Yes 2- No\n====== '))
+                idioma = int(input('Do you want to return to the temperature menu? 1- Yes 2- No\n====== '))
+                if idioma == 2:
+                    break
+                else:
+                    temp(1)
         except ValueError:
-            print("Digite um valor valido.")
-            idioma = input('Deseja sair? 1- Não  2- Sim\n====== ')
+            print("Valor digitado fora do esperado. Digite um valor valido.")
+            print('Deseja sair? 1- Não  2- Sim\n')
+            print("Value entered not as expected. Enter a valid value.")
+            idioma = input("Do you want to leave? 1- No 2- Yes\n====== ")
             if idioma == 2:
                 break
             else:
