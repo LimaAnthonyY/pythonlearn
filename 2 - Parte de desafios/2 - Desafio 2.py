@@ -16,4 +16,3 @@ l = float(input("Digite a largura da parede: "))
 var = tint(r,a,l)
 
 print(f"Você necessita de {var} latas de tinta.")
-
